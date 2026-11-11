@@ -1,0 +1,100 @@
+{
+  "equipment": [
+    {
+      "name": "移动式污水处理设备",
+      "aliases": [
+        "污水处理",
+        "污水设备",
+        "一体化污水"
+      ],
+      "daily_rate": 880,
+      "deposit": 8000,
+      "setup_fee": 1500
+    },
+    {
+      "name": "扬尘监测设备",
+      "aliases": [
+        "扬尘",
+        "扬尘监测"
+      ],
+      "daily_rate": 260,
+      "deposit": 2000,
+      "setup_fee": 600
+    },
+    {
+      "name": "噪声监测仪",
+      "aliases": [
+        "噪声",
+        "噪音"
+      ],
+      "daily_rate": 180,
+      "deposit": 1000,
+      "setup_fee": 300
+    },
+    {
+      "name": "工业除尘设备",
+      "aliases": [
+        "除尘",
+        "工业除尘"
+      ],
+      "daily_rate": 1200,
+      "deposit": 15000,
+      "setup_fee": 2500
+    },
+    {
+      "name": "废气处理设备",
+      "aliases": [
+        "废气",
+        "VOCs",
+        "催化燃烧"
+      ],
+      "daily_rate": 1500,
+      "deposit": 20000,
+      "setup_fee": 3000
+    },
+    {
+      "name": "水质在线监测仪",
+      "aliases": [
+        "水质",
+        "水质监测"
+      ],
+      "daily_rate": 420,
+      "deposit": 5000,
+      "setup_fee": 1000
+    },
+    {
+      "name": "危废暂存柜",
+      "aliases": [
+        "危废",
+        "暂存柜"
+      ],
+      "daily_rate": 320,
+      "deposit": 3000,
+      "setup_fee": 800
+    },
+    {
+      "name": "环保管家服务",
+      "aliases": [
+        "环保管家",
+        "管家服务"
+      ],
+      "daily_rate": 6000,
+      "deposit": 0,
+      "setup_fee": 0
+    }
+  ],
+  "delivery_base_fee": 500,
+  "delivery_per_km": 8,
+  "free_distance_km": 30,
+  "tax_rate": 0.13,
+  "long_rental_discounts": [
+    {
+      "min_days": 30,
+      "discount": 0.12
+    },
+    {
+      "min_days": 7,
+      "discount": 0.05
+    }
+  ]
+}
