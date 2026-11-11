@@ -1,0 +1,60 @@
+{"id": "eval-faq-rental_process-1", "question": "请问环保设备租赁的流程是什么？", "expected_groups": ["rental_process"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-rental_process-2", "question": "想问下环保设备租赁的流程是什么？", "expected_groups": ["rental_process"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-deposit-1", "question": "请问租赁设备需要交多少押金？", "expected_groups": ["deposit"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-deposit-2", "question": "想问下租赁设备需要交多少押金？", "expected_groups": ["deposit"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-freight-1", "question": "请问设备租赁的运费怎么计算？", "expected_groups": ["freight"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-freight-2", "question": "想问下设备租赁的运费怎么计算？", "expected_groups": ["freight"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-installation-1", "question": "请问设备到场后由谁负责安装调试？", "expected_groups": ["installation"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-installation-2", "question": "想问下设备到场后由谁负责安装调试？", "expected_groups": ["installation"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-maintenance-1", "question": "请问租赁期间设备故障如何维保？", "expected_groups": ["maintenance"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-maintenance-2", "question": "想问下租赁期间设备故障如何维保？", "expected_groups": ["maintenance"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-invoice-1", "question": "请问租赁费用可以开什么发票？", "expected_groups": ["invoice"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-invoice-2", "question": "想问下租赁费用可以开什么发票？", "expected_groups": ["invoice"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-contract-1", "question": "请问签合同需要准备哪些资料？", "expected_groups": ["contract"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-contract-2", "question": "想问下签合同需要准备哪些资料？", "expected_groups": ["contract"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-lease_term-1", "question": "请问设备最短可以租多久？", "expected_groups": ["lease_term"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-lease_term-2", "question": "想问下设备最短可以租多久？", "expected_groups": ["lease_term"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-renewal-1", "question": "请问租期到了还想继续用，怎么续租？", "expected_groups": ["renewal"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-renewal-2", "question": "想问下租期到了还想继续用，怎么续租？", "expected_groups": ["renewal"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-return-1", "question": "请问退租需要提前多久申请？", "expected_groups": ["return"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-return-2", "question": "想问下退租需要提前多久申请？", "expected_groups": ["return"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-quote-1", "question": "请问设备租赁报价包含哪些费用？", "expected_groups": ["quote"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-quote-2", "question": "想问下设备租赁报价包含哪些费用？", "expected_groups": ["quote"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-delivery-1", "question": "请问下单后多久可以发货？", "expected_groups": ["delivery"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-delivery-2", "question": "想问下下单后多久可以发货？", "expected_groups": ["delivery"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-fault-1", "question": "请问设备出现故障怎么报修？", "expected_groups": ["fault"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-fault-2", "question": "想问下设备出现故障怎么报修？", "expected_groups": ["fault"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-data_access-1", "question": "请问监测数据可以接入我们的平台吗？", "expected_groups": ["data_access"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-data_access-2", "question": "想问下监测数据可以接入我们的平台吗？", "expected_groups": ["data_access"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-calibration-1", "question": "请问监测设备多久校准一次？", "expected_groups": ["calibration"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-calibration-2", "question": "想问下监测设备多久校准一次？", "expected_groups": ["calibration"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-acceptance-1", "question": "请问租赁设备能用于环保验收吗？", "expected_groups": ["acceptance"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-acceptance-2", "question": "想问下租赁设备能用于环保验收吗？", "expected_groups": ["acceptance"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-subsidy-1", "question": "请问设备租赁可以申请环保补贴吗？", "expected_groups": ["subsidy"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-subsidy-2", "question": "想问下设备租赁可以申请环保补贴吗？", "expected_groups": ["subsidy"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-payment-1", "question": "请问租赁费用怎么支付？", "expected_groups": ["payment"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-payment-2", "question": "想问下租赁费用怎么支付？", "expected_groups": ["payment"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-tax-1", "question": "请问设备租赁的税率是多少？", "expected_groups": ["tax"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-tax-2", "question": "想问下设备租赁的税率是多少？", "expected_groups": ["tax"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-model-1", "question": "请问怎么选择适合的设备型号？", "expected_groups": ["model"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-faq-model-2", "question": "想问下怎么选择适合的设备型号？", "expected_groups": ["model"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "easy"}
+{"id": "eval-hard-01", "question": "设备用完了想提前还回去，要提前几天说？", "expected_groups": ["return"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "hard"}
+{"id": "eval-hard-02", "question": "押金一般压多少，什么时候能退回来？", "expected_groups": ["deposit"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "hard"}
+{"id": "eval-hard-03", "question": "开票要几个点？", "expected_groups": ["tax"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "hard"}
+{"id": "eval-hard-04", "question": "机器坏了，师傅多久能到？", "expected_groups": ["maintenance"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "hard"}
+{"id": "eval-hard-05", "question": "设备放在楼顶，承重要不要另外算？", "expected_groups": ["site"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "hard"}
+{"id": "eval-hard-06", "question": "我们想接政府平台，能对接吗？", "expected_groups": ["data_access"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "hard"}
+{"id": "eval-hard-07", "question": "项目验收需要哪些证书？", "expected_groups": ["acceptance"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "hard"}
+{"id": "eval-hard-08", "question": "人可以来现场教我们操作吗？", "expected_groups": ["training"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "hard"}
+{"id": "eval-hard-09", "question": "设备被偷了怎么办？", "expected_groups": ["insurance"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "hard"}
+{"id": "eval-hard-10", "question": "晚还几天怎么算钱？", "expected_groups": ["penalty"], "expected_intent": "faq", "expected_tool": "search_knowledge_base", "difficulty": "hard"}
+{"id": "eval-tool-01", "question": "租赁 2 台移动式污水处理设备 10 天，大概多少钱？", "expected_groups": [], "expected_intent": "quote", "expected_tool": "get_quote"}
+{"id": "eval-tool-02", "question": "扬尘监测设备租一个月，3 台，含安装，报价多少？", "expected_groups": [], "expected_intent": "quote", "expected_tool": "get_quote"}
+{"id": "eval-tool-03", "question": "工业除尘设备租 5 天 1 台，运费按 20 公里算，总费用是多少？", "expected_groups": [], "expected_intent": "quote", "expected_tool": "get_quote"}
+{"id": "eval-tool-04", "question": "2 台噪声监测仪租 15 天报价", "expected_groups": [], "expected_intent": "quote", "expected_tool": "get_quote"}
+{"id": "eval-tool-05", "question": "订单 EQ2026003 现在什么进度？", "expected_groups": [], "expected_intent": "order", "expected_tool": "get_order_status"}
+{"id": "eval-tool-06", "question": "帮我查一下 EQ2026007 什么时候到货", "expected_groups": [], "expected_intent": "order", "expected_tool": "get_order_status"}
+{"id": "eval-tool-07", "question": "EQ2026001 的押金退了吗？", "expected_groups": [], "expected_intent": "order", "expected_tool": "get_order_status"}
+{"id": "eval-tool-08", "question": "设备故障三天没人处理，我要投诉，转人工", "expected_groups": [], "expected_intent": "handoff", "expected_tool": "create_handoff_ticket"}
+{"id": "eval-tool-09", "question": "我要退款，请人工客服联系我", "expected_groups": [], "expected_intent": "handoff", "expected_tool": "create_handoff_ticket"}
+{"id": "eval-tool-10", "question": "租赁合同有纠纷，帮我转人工", "expected_groups": [], "expected_intent": "handoff", "expected_tool": "create_handoff_ticket"}
