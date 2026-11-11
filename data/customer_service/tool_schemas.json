@@ -1,0 +1,91 @@
+[
+  {
+    "name": "search_knowledge_base",
+    "description": "检索环保设备租赁 FAQ 知识库，返回带引用的答案片段。",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "用户问题"
+        },
+        "top_k": {
+          "type": "integer",
+          "default": 3
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "get_quote",
+    "description": "根据设备类型、数量、租期和运输距离计算租赁报价。",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "equipment_type": {
+          "type": "string"
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "days": {
+          "type": "integer"
+        },
+        "distance_km": {
+          "type": "number",
+          "default": 30
+        }
+      },
+      "required": [
+        "equipment_type",
+        "quantity",
+        "days"
+      ]
+    }
+  },
+  {
+    "name": "get_order_status",
+    "description": "查询租赁订单的当前节点、预计时间和负责人。",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "order_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "order_id"
+      ]
+    }
+  },
+  {
+    "name": "create_handoff_ticket",
+    "description": "创建人工接管工单，用于投诉、退款、合同纠纷等高风险场景。",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "reason": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "priority": {
+          "type": "string",
+          "enum": [
+            "P1",
+            "P2",
+            "P3"
+          ]
+        }
+      },
+      "required": [
+        "reason",
+        "summary"
+      ]
+    }
+  }
+]
