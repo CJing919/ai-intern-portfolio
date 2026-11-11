@@ -1,0 +1,90 @@
+[
+  {
+    "order_id": "EQ2026001",
+    "customer": "上海某园区运营方",
+    "equipment": "移动式污水处理设备",
+    "quantity": 2,
+    "status": "已退租",
+    "current_step": "押金结算中",
+    "eta": "押金预计 2026-11-15 前退回",
+    "owner": "租赁服务组",
+    "note": "设备已验收，无损坏，等待财务结算。"
+  },
+  {
+    "order_id": "EQ2026002",
+    "customer": "苏州某制造企业",
+    "equipment": "工业除尘设备",
+    "quantity": 1,
+    "status": "履约中",
+    "current_step": "安装调试",
+    "eta": "2026-11-13 完成调试",
+    "owner": "华东交付组",
+    "note": "现场电源已就绪，等待风管接口改造。"
+  },
+  {
+    "order_id": "EQ2026003",
+    "customer": "浦东某工地",
+    "equipment": "扬尘监测设备",
+    "quantity": 4,
+    "status": "履约中",
+    "current_step": "物流运输",
+    "eta": "2026-11-12 到货",
+    "owner": "上海配送组",
+    "note": "车牌沪A****，司机已联系现场收货人。"
+  },
+  {
+    "order_id": "EQ2026004",
+    "customer": "嘉兴某印染厂",
+    "equipment": "废气处理设备",
+    "quantity": 1,
+    "status": "待发货",
+    "current_step": "排产",
+    "eta": "2026-11-18 发货",
+    "owner": "生产计划组",
+    "note": "催化燃烧模块需完成出厂检测。"
+  },
+  {
+    "order_id": "EQ2026005",
+    "customer": "上海某街道",
+    "equipment": "噪声监测仪",
+    "quantity": 6,
+    "status": "履约中",
+    "current_step": "数据联调",
+    "eta": "2026-11-14 完成平台接入",
+    "owner": "技术支持组",
+    "note": "MQTT 主题已配置，等待客户平台白名单。"
+  },
+  {
+    "order_id": "EQ2026006",
+    "customer": "宁波某水务公司",
+    "equipment": "水质在线监测仪",
+    "quantity": 3,
+    "status": "待付款",
+    "current_step": "合同审批",
+    "eta": "付款后 5 个工作日发货",
+    "owner": "商务支持组",
+    "note": "客户正在走内部用印流程。"
+  },
+  {
+    "order_id": "EQ2026007",
+    "customer": "昆山某电子厂",
+    "equipment": "危废暂存柜",
+    "quantity": 2,
+    "status": "履约中",
+    "current_step": "派送中",
+    "eta": "2026-11-12 下午送达",
+    "owner": "上海配送组",
+    "note": "需客户准备叉车卸货。"
+  },
+  {
+    "order_id": "EQ2026008",
+    "customer": "上海某环保工程公司",
+    "equipment": "环保管家服务",
+    "quantity": 1,
+    "status": "履约中",
+    "current_step": "月度巡检",
+    "eta": "2026-11-20 出具月报",
+    "owner": "环保管家组",
+    "note": "本月已完成 3 个点位巡检。"
+  }
+]
