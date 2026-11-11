@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-11-11T17:41:14",
+  "eval": {
+    "documents": 210,
+    "eval_cases": 60,
+    "faq_cases": 50,
+    "retrieval_hit_at_1": 0.92,
+    "retrieval_hit_at_3": 0.92,
+    "retrieval_mrr": 0.92,
+    "easy_hit_at_3": 1.0,
+    "hard_hit_at_3": 0.6,
+    "keyword_baseline_hit_at_3": 0.92,
+    "intent_accuracy": 1.0,
+    "tool_accuracy": 1.0,
+    "citation_hit_rate": 0.9333,
+    "handoff_accuracy": 1.0,
+    "avg_latency_ms": 1.441
+  },
+  "content": {
+    "posts": 90,
+    "views": 354803,
+    "leads": 4524,
+    "cpl": 9.46,
+    "brief_status": "ready_for_review",
+    "brief_compliance_score": 100
+  },
+  "process": {
+    "flows": 4,
+    "steps": 19,
+    "monthly_hours": 1477.9,
+    "automatable_hours": 1045.3,
+    "annual_saving_hours": 7526.4
+  },
+  "bid_documents": 3
+}
