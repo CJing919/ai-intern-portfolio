@@ -1,0 +1,1886 @@
+{
+  "metrics": {
+    "documents": 210,
+    "eval_cases": 60,
+    "faq_cases": 50,
+    "retrieval_hit_at_1": 0.92,
+    "retrieval_hit_at_3": 0.92,
+    "retrieval_mrr": 0.92,
+    "easy_hit_at_3": 1.0,
+    "hard_hit_at_3": 0.6,
+    "keyword_baseline_hit_at_3": 0.92,
+    "intent_accuracy": 1.0,
+    "tool_accuracy": 1.0,
+    "citation_hit_rate": 0.9333,
+    "handoff_accuracy": 1.0,
+    "avg_latency_ms": 1.441
+  },
+  "retrieval_cases": [
+    {
+      "id": "eval-faq-rental_process-1",
+      "question": "请问环保设备租赁的流程是什么？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "rental_process"
+      ],
+      "retrieved_groups": [
+        "rental_process"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "rental_process",
+        "freight",
+        "tax"
+      ]
+    },
+    {
+      "id": "eval-faq-rental_process-2",
+      "question": "想问下环保设备租赁的流程是什么？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "rental_process"
+      ],
+      "retrieved_groups": [
+        "rental_process"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "rental_process",
+        "freight",
+        "tax"
+      ]
+    },
+    {
+      "id": "eval-faq-deposit-1",
+      "question": "请问租赁设备需要交多少押金？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "deposit"
+      ],
+      "retrieved_groups": [
+        "deposit"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "deposit",
+        "payment",
+        "tax"
+      ]
+    },
+    {
+      "id": "eval-faq-deposit-2",
+      "question": "想问下租赁设备需要交多少押金？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "deposit"
+      ],
+      "retrieved_groups": [
+        "deposit"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "deposit",
+        "tax",
+        "payment"
+      ]
+    },
+    {
+      "id": "eval-faq-freight-1",
+      "question": "请问设备租赁的运费怎么计算？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "freight"
+      ],
+      "retrieved_groups": [
+        "freight"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "freight",
+        "payment",
+        "lease_term"
+      ]
+    },
+    {
+      "id": "eval-faq-freight-2",
+      "question": "想问下设备租赁的运费怎么计算？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "freight"
+      ],
+      "retrieved_groups": [
+        "freight"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "freight",
+        "payment",
+        "lease_term"
+      ]
+    },
+    {
+      "id": "eval-faq-installation-1",
+      "question": "请问设备到场后由谁负责安装调试？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "installation"
+      ],
+      "retrieved_groups": [
+        "installation"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "installation",
+        "quote",
+        "rental_process"
+      ]
+    },
+    {
+      "id": "eval-faq-installation-2",
+      "question": "想问下设备到场后由谁负责安装调试？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "installation"
+      ],
+      "retrieved_groups": [
+        "installation"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "installation",
+        "quote",
+        "rental_process"
+      ]
+    },
+    {
+      "id": "eval-faq-maintenance-1",
+      "question": "请问租赁期间设备故障如何维保？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "maintenance"
+      ],
+      "retrieved_groups": [
+        "maintenance"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "maintenance",
+        "backup"
+      ]
+    },
+    {
+      "id": "eval-faq-maintenance-2",
+      "question": "想问下租赁期间设备故障如何维保？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "maintenance"
+      ],
+      "retrieved_groups": [
+        "maintenance"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "maintenance",
+        "backup",
+        "insurance"
+      ]
+    },
+    {
+      "id": "eval-faq-invoice-1",
+      "question": "请问租赁费用可以开什么发票？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "invoice"
+      ],
+      "retrieved_groups": [
+        "invoice"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "invoice",
+        "subsidy",
+        "payment"
+      ]
+    },
+    {
+      "id": "eval-faq-invoice-2",
+      "question": "想问下租赁费用可以开什么发票？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "invoice"
+      ],
+      "retrieved_groups": [
+        "invoice"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "invoice",
+        "subsidy",
+        "payment"
+      ]
+    },
+    {
+      "id": "eval-faq-contract-1",
+      "question": "请问签合同需要准备哪些资料？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "contract"
+      ],
+      "retrieved_groups": [
+        "contract"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "contract",
+        "return",
+        "delivery"
+      ]
+    },
+    {
+      "id": "eval-faq-contract-2",
+      "question": "想问下签合同需要准备哪些资料？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "contract"
+      ],
+      "retrieved_groups": [
+        "contract"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "contract",
+        "return",
+        "delivery"
+      ]
+    },
+    {
+      "id": "eval-faq-lease_term-1",
+      "question": "请问设备最短可以租多久？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "lease_term"
+      ],
+      "retrieved_groups": [
+        "lease_term"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "lease_term",
+        "calibration",
+        "delivery"
+      ]
+    },
+    {
+      "id": "eval-faq-lease_term-2",
+      "question": "想问下设备最短可以租多久？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "lease_term"
+      ],
+      "retrieved_groups": [
+        "lease_term"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "lease_term",
+        "calibration",
+        "delivery"
+      ]
+    },
+    {
+      "id": "eval-faq-renewal-1",
+      "question": "请问租期到了还想继续用，怎么续租？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "renewal"
+      ],
+      "retrieved_groups": [
+        "renewal"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "renewal",
+        "payment",
+        "lease_term"
+      ]
+    },
+    {
+      "id": "eval-faq-renewal-2",
+      "question": "想问下租期到了还想继续用，怎么续租？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "renewal"
+      ],
+      "retrieved_groups": [
+        "renewal"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "renewal",
+        "payment",
+        "lease_term"
+      ]
+    },
+    {
+      "id": "eval-faq-return-1",
+      "question": "请问退租需要提前多久申请？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "return"
+      ],
+      "retrieved_groups": [
+        "return"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "return",
+        "lease_term",
+        "delivery"
+      ]
+    },
+    {
+      "id": "eval-faq-return-2",
+      "question": "想问下退租需要提前多久申请？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "return"
+      ],
+      "retrieved_groups": [
+        "return"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "return",
+        "lease_term",
+        "delivery"
+      ]
+    },
+    {
+      "id": "eval-faq-quote-1",
+      "question": "请问设备租赁报价包含哪些费用？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "quote"
+      ],
+      "retrieved_groups": [
+        "quote"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "quote",
+        "freight",
+        "subsidy"
+      ]
+    },
+    {
+      "id": "eval-faq-quote-2",
+      "question": "想问下设备租赁报价包含哪些费用？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "quote"
+      ],
+      "retrieved_groups": [
+        "quote"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "quote",
+        "freight",
+        "lease_term"
+      ]
+    },
+    {
+      "id": "eval-faq-delivery-1",
+      "question": "请问下单后多久可以发货？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "delivery"
+      ],
+      "retrieved_groups": [
+        "delivery"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "delivery",
+        "lease_term"
+      ]
+    },
+    {
+      "id": "eval-faq-delivery-2",
+      "question": "想问下下单后多久可以发货？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "delivery"
+      ],
+      "retrieved_groups": [
+        "delivery"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "delivery",
+        "lease_term",
+        "invoice"
+      ]
+    },
+    {
+      "id": "eval-faq-fault-1",
+      "question": "请问设备出现故障怎么报修？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "fault"
+      ],
+      "retrieved_groups": [
+        "fault"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "fault",
+        "freight",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "eval-faq-fault-2",
+      "question": "想问下设备出现故障怎么报修？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "fault"
+      ],
+      "retrieved_groups": [
+        "fault"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "fault",
+        "freight",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "eval-faq-data_access-1",
+      "question": "请问监测数据可以接入我们的平台吗？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "data_access"
+      ],
+      "retrieved_groups": [
+        "data_access"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "data_access",
+        "lease_term",
+        "data_ownership"
+      ]
+    },
+    {
+      "id": "eval-faq-data_access-2",
+      "question": "想问下监测数据可以接入我们的平台吗？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "data_access"
+      ],
+      "retrieved_groups": [
+        "data_access"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "data_access",
+        "lease_term",
+        "data_ownership"
+      ]
+    },
+    {
+      "id": "eval-faq-calibration-1",
+      "question": "请问监测设备多久校准一次？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "calibration"
+      ],
+      "retrieved_groups": [
+        "calibration"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "calibration",
+        "delivery",
+        "lease_term"
+      ]
+    },
+    {
+      "id": "eval-faq-calibration-2",
+      "question": "想问下监测设备多久校准一次？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "calibration"
+      ],
+      "retrieved_groups": [
+        "calibration"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "calibration",
+        "delivery",
+        "lease_term"
+      ]
+    },
+    {
+      "id": "eval-faq-acceptance-1",
+      "question": "请问租赁设备能用于环保验收吗？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "acceptance"
+      ],
+      "retrieved_groups": [
+        "acceptance"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "acceptance",
+        "deposit",
+        "payment"
+      ]
+    },
+    {
+      "id": "eval-faq-acceptance-2",
+      "question": "想问下租赁设备能用于环保验收吗？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "acceptance"
+      ],
+      "retrieved_groups": [
+        "acceptance"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "acceptance",
+        "deposit",
+        "payment"
+      ]
+    },
+    {
+      "id": "eval-faq-subsidy-1",
+      "question": "请问设备租赁可以申请环保补贴吗？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "subsidy"
+      ],
+      "retrieved_groups": [
+        "subsidy"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "subsidy",
+        "lease_term"
+      ]
+    },
+    {
+      "id": "eval-faq-subsidy-2",
+      "question": "想问下设备租赁可以申请环保补贴吗？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "subsidy"
+      ],
+      "retrieved_groups": [
+        "subsidy"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "subsidy",
+        "lease_term",
+        "rental_process"
+      ]
+    },
+    {
+      "id": "eval-faq-payment-1",
+      "question": "请问租赁费用怎么支付？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "payment"
+      ],
+      "retrieved_groups": [
+        "payment"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "payment",
+        "invoice",
+        "freight"
+      ]
+    },
+    {
+      "id": "eval-faq-payment-2",
+      "question": "想问下租赁费用怎么支付？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "payment"
+      ],
+      "retrieved_groups": [
+        "payment"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "payment",
+        "invoice",
+        "freight"
+      ]
+    },
+    {
+      "id": "eval-faq-tax-1",
+      "question": "请问设备租赁的税率是多少？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "tax"
+      ],
+      "retrieved_groups": [
+        "tax"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "tax",
+        "lease_term",
+        "deposit"
+      ]
+    },
+    {
+      "id": "eval-faq-tax-2",
+      "question": "想问下设备租赁的税率是多少？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "tax"
+      ],
+      "retrieved_groups": [
+        "tax"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "tax",
+        "lease_term",
+        "deposit"
+      ]
+    },
+    {
+      "id": "eval-faq-model-1",
+      "question": "请问怎么选择适合的设备型号？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "model"
+      ],
+      "retrieved_groups": [
+        "model"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "model",
+        "capacity",
+        "renewal"
+      ]
+    },
+    {
+      "id": "eval-faq-model-2",
+      "question": "想问下怎么选择适合的设备型号？",
+      "difficulty": "easy",
+      "expected_groups": [
+        "model"
+      ],
+      "retrieved_groups": [
+        "model"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "model",
+        "capacity",
+        "renewal"
+      ]
+    },
+    {
+      "id": "eval-hard-01",
+      "question": "设备用完了想提前还回去，要提前几天说？",
+      "difficulty": "hard",
+      "expected_groups": [
+        "return"
+      ],
+      "retrieved_groups": [
+        "return"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "backup",
+        "penalty",
+        "return"
+      ]
+    },
+    {
+      "id": "eval-hard-02",
+      "question": "押金一般压多少，什么时候能退回来？",
+      "difficulty": "hard",
+      "expected_groups": [
+        "deposit"
+      ],
+      "retrieved_groups": [
+        "deposit"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "deposit",
+        "rental_process"
+      ]
+    },
+    {
+      "id": "eval-hard-03",
+      "question": "开票要几个点？",
+      "difficulty": "hard",
+      "expected_groups": [
+        "tax"
+      ],
+      "retrieved_groups": [
+        "invoice"
+      ],
+      "rank": 0,
+      "baseline_groups": [
+        "contract",
+        "invoice"
+      ]
+    },
+    {
+      "id": "eval-hard-04",
+      "question": "机器坏了，师傅多久能到？",
+      "difficulty": "hard",
+      "expected_groups": [
+        "maintenance"
+      ],
+      "retrieved_groups": [
+        "delivery"
+      ],
+      "rank": 0,
+      "baseline_groups": [
+        "delivery",
+        "lease_term"
+      ]
+    },
+    {
+      "id": "eval-hard-05",
+      "question": "设备放在楼顶，承重要不要另外算？",
+      "difficulty": "hard",
+      "expected_groups": [
+        "site"
+      ],
+      "retrieved_groups": [
+        "site"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "site",
+        "acceptance"
+      ]
+    },
+    {
+      "id": "eval-hard-06",
+      "question": "我们想接政府平台，能对接吗？",
+      "difficulty": "hard",
+      "expected_groups": [
+        "data_access"
+      ],
+      "retrieved_groups": [
+        "data_access"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "data_access",
+        "power"
+      ]
+    },
+    {
+      "id": "eval-hard-07",
+      "question": "项目验收需要哪些证书？",
+      "difficulty": "hard",
+      "expected_groups": [
+        "acceptance"
+      ],
+      "retrieved_groups": [
+        "acceptance"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "contract",
+        "acceptance"
+      ]
+    },
+    {
+      "id": "eval-hard-08",
+      "question": "人可以来现场教我们操作吗？",
+      "difficulty": "hard",
+      "expected_groups": [
+        "training"
+      ],
+      "retrieved_groups": [
+        "training"
+      ],
+      "rank": 1,
+      "baseline_groups": [
+        "training",
+        "rental_process"
+      ]
+    },
+    {
+      "id": "eval-hard-09",
+      "question": "设备被偷了怎么办？",
+      "difficulty": "hard",
+      "expected_groups": [
+        "insurance"
+      ],
+      "retrieved_groups": [
+        "capacity",
+        "fault"
+      ],
+      "rank": 0,
+      "baseline_groups": [
+        "capacity",
+        "freight",
+        "payment"
+      ]
+    },
+    {
+      "id": "eval-hard-10",
+      "question": "晚还几天怎么算钱？",
+      "difficulty": "hard",
+      "expected_groups": [
+        "penalty"
+      ],
+      "retrieved_groups": [
+        "capacity"
+      ],
+      "rank": 0,
+      "baseline_groups": [
+        "capacity",
+        "renewal"
+      ]
+    }
+  ],
+  "agent_cases": [
+    {
+      "id": "eval-faq-rental_process-1",
+      "question": "请问环保设备租赁的流程是什么？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "标准流程为：需求确认→选型报价→现场勘查→合同与押金→排产发货→安装调试→验收起租→维保与退租。常规设备 3—5 个工作日可发货；定制或跨省项目以合同排期为准。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-rental_process-2",
+      "question": "想问下环保设备租赁的流程是什么？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "标准流程为：需求确认→选型报价→现场勘查→合同与押金→排产发货→安装调试→验收起租→维保与退租。常规设备 3—5 个工作日可发货；定制或跨省项目以合同排期为准。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-deposit-1",
+      "question": "请问租赁设备需要交多少押金？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "押金通常按设备原值的 10%—20% 收取，不同设备差异较大。押金在设备验收后退还：无损坏、无欠费、耗材结清后 7—10 个工作日原路退回。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-deposit-2",
+      "question": "想问下租赁设备需要交多少押金？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "押金通常按设备原值的 10%—20% 收取，不同设备差异较大。押金在设备验收后退还：无损坏、无欠费、耗材结清后 7—10 个工作日原路退回。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-freight-1",
+      "question": "请问设备租赁的运费怎么计算？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "运费由基础出车费、里程费和特殊吊装费组成，默认按单程 30 公里测算。上海区域内基础出车费 500 元，超出部分按 8 元/公里计；跨省项目需单独报价。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-freight-2",
+      "question": "想问下设备租赁的运费怎么计算？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "运费由基础出车费、里程费和特殊吊装费组成，默认按单程 30 公里测算。上海区域内基础出车费 500 元，超出部分按 8 元/公里计；跨省项目需单独报价。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-installation-1",
+      "question": "请问设备到场后由谁负责安装调试？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "标准租赁包含一次进场安装与调试，通电、通水、基础条件由客户准备。调试完成后双方签署验收单，起租日以验收单日期为准；二次移位或改造另行收费。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-installation-2",
+      "question": "想问下设备到场后由谁负责安装调试？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "标准租赁包含一次进场安装与调试，通电、通水、基础条件由客户准备。调试完成后双方签署验收单，起租日以验收单日期为准；二次移位或改造另行收费。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-maintenance-1",
+      "question": "请问租赁期间设备故障如何维保？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "租赁期内提供 7×24 小时报修，上海区域 2 小时内响应、4 小时内到场；一般故障 8 小时内修复，重大故障提供备用机。人为损坏和耗材更换不在免费维保范围内。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-maintenance-2",
+      "question": "想问下租赁期间设备故障如何维保？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "租赁期内提供 7×24 小时报修，上海区域 2 小时内响应、4 小时内到场；一般故障 8 小时内修复，重大故障提供备用机。人为损坏和耗材更换不在免费维保范围内。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-invoice-1",
+      "question": "请问租赁费用可以开什么发票？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "可开具 13% 增值税专用发票或普通发票，服务类项目按 6% 开具。发票在首期款到账后 3 个工作日内开出，专票需提前提供开票资料和邮寄地址。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-invoice-2",
+      "question": "想问下租赁费用可以开什么发票？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "可开具 13% 增值税专用发票或普通发票，服务类项目按 6% 开具。发票在首期款到账后 3 个工作日内开出，专票需提前提供开票资料和邮寄地址。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-contract-1",
+      "question": "请问签合同需要准备哪些资料？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "企业客户需提供营业执照、开票资料、经办人授权书和项目地址；个人客户需提供身份证与使用场景说明。合同可走电子签，特殊条款需提前走法务审批。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-contract-2",
+      "question": "想问下签合同需要准备哪些资料？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "企业客户需提供营业执照、开票资料、经办人授权书和项目地址；个人客户需提供身份证与使用场景说明。合同可走电子签，特殊条款需提前走法务审批。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-lease_term-1",
+      "question": "请问设备最短可以租多久？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "标准设备最短租期 7 天，监测类设备最短 30 天。租期不足最短天数按最短天数计费；连续租赁 30 天以上可申请 12% 的阶梯折扣。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-lease_term-2",
+      "question": "想问下设备最短可以租多久？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "标准设备最短租期 7 天，监测类设备最短 30 天。租期不足最短天数按最短天数计费；连续租赁 30 天以上可申请 12% 的阶梯折扣。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-renewal-1",
+      "question": "请问租期到了还想继续用，怎么续租？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "到期前 7 天提交续租申请，确认设备状态和下一周期价格后签署补充协议即可。连续续租通常保留原设备，若原设备已排给其他项目，可协调同型号替换。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-renewal-2",
+      "question": "想问下租期到了还想继续用，怎么续租？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "到期前 7 天提交续租申请，确认设备状态和下一周期价格后签署补充协议即可。连续续租通常保留原设备，若原设备已排给其他项目，可协调同型号替换。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-return-1",
+      "question": "请问退租需要提前多久申请？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "标准退租需提前 7 个工作日提交申请，便于安排拆除、运输和验收。提前退租按合同约定收取剩余租期 20% 的违约金；因设备质量问题退租可协商减免。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-return-2",
+      "question": "想问下退租需要提前多久申请？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "标准退租需提前 7 个工作日提交申请，便于安排拆除、运输和验收。提前退租按合同约定收取剩余租期 20% 的违约金；因设备质量问题退租可协商减免。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-quote-1",
+      "question": "请问设备租赁报价包含哪些费用？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "报价通常包含设备租金、基础安装调试、常规维保和一次进出场运输。押金、特殊吊装、超距离运费、耗材和二次移位需单列，最终以报价单和合同为准。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-quote-2",
+      "question": "想问下设备租赁报价包含哪些费用？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "报价通常包含设备租金、基础安装调试、常规维保和一次进出场运输。押金、特殊吊装、超距离运费、耗材和二次移位需单列，最终以报价单和合同为准。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-delivery-1",
+      "question": "请问下单后多久可以发货？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "现货设备在合同、首期款和押金到账后 3—5 个工作日发货；需要校准或改装的监测设备增加 2—3 个工作日。紧急项目可申请加急，是否可插单以库存确认为准。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-delivery-2",
+      "question": "想问下下单后多久可以发货？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "现货设备在合同、首期款和押金到账后 3—5 个工作日发货；需要校准或改装的监测设备增加 2—3 个工作日。紧急项目可申请加急，是否可插单以库存确认为准。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-fault-1",
+      "question": "请问设备出现故障怎么报修？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "可通过服务热线、企业微信或合同预留邮箱报修，需提供设备编号、故障现象、现场照片和联系人。系统会生成工单并按区域派单，紧急故障可标记为 P1。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-fault-2",
+      "question": "想问下设备出现故障怎么报修？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "可通过服务热线、企业微信或合同预留邮箱报修，需提供设备编号、故障现象、现场照片和联系人。系统会生成工单并按区域派单，紧急故障可标记为 P1。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-data_access-1",
+      "question": "请问监测数据可以接入我们的平台吗？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "支持 Modbus RTU/TCP、MQTT、HTTP 推送和 4G DTU 等方式接入。标准项目提供点位表、协议文档和联调支持；定制协议对接按工作量单独评估。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-data_access-2",
+      "question": "想问下监测数据可以接入我们的平台吗？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "支持 Modbus RTU/TCP、MQTT、HTTP 推送和 4G DTU 等方式接入。标准项目提供点位表、协议文档和联调支持；定制协议对接按工作量单独评估。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-calibration-1",
+      "question": "请问监测设备多久校准一次？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "扬尘和噪声设备建议每 6 个月校准一次，水质设备按参数每 1—3 个月校准。租赁期内可购买校准包，含标准气体/标准液、现场校准和报告。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-calibration-2",
+      "question": "想问下监测设备多久校准一次？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "扬尘和噪声设备建议每 6 个月校准一次，水质设备按参数每 1—3 个月校准。租赁期内可购买校准包，含标准气体/标准液、现场校准和报告。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-acceptance-1",
+      "question": "请问租赁设备能用于环保验收吗？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "可以用于验收期间的临时监测或治理，但验收是否通过取决于项目工艺、排放条件和当地要求。我们可提供设备检定证书、运行记录和监测报告模板，不承诺验收结果。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-acceptance-2",
+      "question": "想问下租赁设备能用于环保验收吗？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "可以用于验收期间的临时监测或治理，但验收是否通过取决于项目工艺、排放条件和当地要求。我们可提供设备检定证书、运行记录和监测报告模板，不承诺验收结果。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-subsidy-1",
+      "question": "请问设备租赁可以申请环保补贴吗？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "部分地区的绿色技改、污染防治或中小企业设备更新政策可能覆盖租赁费用，具体以当地申报指南为准。我们可协助提供合同、发票、设备清单和运行数据等材料。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-subsidy-2",
+      "question": "想问下设备租赁可以申请环保补贴吗？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "部分地区的绿色技改、污染防治或中小企业设备更新政策可能覆盖租赁费用，具体以当地申报指南为准。我们可协助提供合同、发票、设备清单和运行数据等材料。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-payment-1",
+      "question": "请问租赁费用怎么支付？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "标准付款方式为 3:6:1，即合同签订付 30%、设备验收付 60%、退租结算付 10%。长期项目可按月支付，需通过信用评估；押金单独收取，不计入租金。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-payment-2",
+      "question": "想问下租赁费用怎么支付？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "标准付款方式为 3:6:1，即合同签订付 30%、设备验收付 60%、退租结算付 10%。长期项目可按月支付，需通过信用评估；押金单独收取，不计入租金。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-tax-1",
+      "question": "请问设备租赁的税率是多少？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "有形动产租赁按 13% 增值税税率开具，纯技术服务按 6% 开具。合同会拆分设备租金、运输、安装和技术服务，具体税率以税务认定和合同约定为准。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-tax-2",
+      "question": "想问下设备租赁的税率是多少？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "有形动产租赁按 13% 增值税税率开具，纯技术服务按 6% 开具。合同会拆分设备租金、运输、安装和技术服务，具体税率以税务认定和合同约定为准。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-model-1",
+      "question": "请问怎么选择适合的设备型号？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "需要确认处理对象、风量/水量、浓度、场地尺度和排放标准，再由工程师做选型。仅提供“房间面积”无法准确选型，建议提供工艺流程图或现场照片。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-faq-model-2",
+      "question": "想问下怎么选择适合的设备型号？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "需要确认处理对象、风量/水量、浓度、场地尺度和排放标准，再由工程师做选型。仅提供“房间面积”无法准确选型，建议提供工艺流程图或现场照片。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-hard-01",
+      "question": "设备用完了想提前还回去，要提前几天说？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.92,
+      "answer_preview": "标准退租需提前 7 个工作日提交申请，便于安排拆除、运输和验收。提前退租按合同约定收取剩余租期 20% 的违约金；因设备质量问题退租可协商减免。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-hard-02",
+      "question": "押金一般压多少，什么时候能退回来？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "押金通常按设备原值的 10%—20% 收取，不同设备差异较大。押金在设备验收后退还：无损坏、无欠费、耗材结清后 7—10 个工作日原路退回。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-hard-03",
+      "question": "开票要几个点？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": false,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.87,
+      "answer_preview": "可开具 13% 增值税专用发票或普通发票，服务类项目按 6% 开具。发票在首期款到账后 3 个工作日内开出，专票需提前提供开票资料和邮寄地址。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-hard-04",
+      "question": "机器坏了，师傅多久能到？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": false,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.79,
+      "answer_preview": "现货设备在合同、首期款和押金到账后 3—5 个工作日发货；需要校准或改装的监测设备增加 2—3 个工作日。紧急项目可申请加急，是否可插单以库存确认为准。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-hard-05",
+      "question": "设备放在楼顶，承重要不要另外算？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "需要根据设备外形、检修通道和吊装空间确定，通常四周预留 1—1.5 米检修通道。楼顶、地下室或软基场地需额外做承重和排水评估。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-hard-06",
+      "question": "我们想接政府平台，能对接吗？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "支持 Modbus RTU/TCP、MQTT、HTTP 推送和 4G DTU 等方式接入。标准项目提供点位表、协议文档和联调支持；定制协议对接按工作量单独评估。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-hard-07",
+      "question": "项目验收需要哪些证书？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "可以用于验收期间的临时监测或治理，但验收是否通过取决于项目工艺、排放条件和当地要求。我们可提供设备检定证书、运行记录和监测报告模板，不承诺验收结果。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-hard-08",
+      "question": "人可以来现场教我们操作吗？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "标准租赁包含 1 次 2 小时现场培训，覆盖开关机、日常巡检、耗材更换和简单故障处理。可追加线上复训或录制操作视频，培训签到和考核记录可存档。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-hard-09",
+      "question": "设备被偷了怎么办？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": false,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.73,
+      "answer_preview": "水处理按吨/天或吨/小时核算，废气按风量 m³/h 核算，除尘按过滤面积和入口浓度核算。选型时通常预留 10%—20% 余量，避免满负荷连续运行。\n\n你可能还想了解：设备出现故障怎么报修？\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-hard-10",
+      "question": "晚还几天怎么算钱？",
+      "expected_intent": "faq",
+      "actual_intent": "faq",
+      "expected_tool": "search_knowledge_base",
+      "tools": [
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": false,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.87,
+      "answer_preview": "水处理按吨/天或吨/小时核算，废气按风量 m³/h 核算，除尘按过滤面积和入口浓度核算。选型时通常预留 10%—20% 余量，避免满负荷连续运行。\n\n以上为演示知识库内容，实际以合同和现场勘查为准。"
+    },
+    {
+      "id": "eval-tool-01",
+      "question": "租赁 2 台移动式污水处理设备 10 天，大概多少钱？",
+      "expected_intent": "quote",
+      "actual_intent": "quote",
+      "expected_tool": "get_quote",
+      "tools": [
+        "get_quote",
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.9,
+      "answer_preview": "按当前配置估算：移动式污水处理设备 2 台 × 10 天，运输距离 30.0 公里。\n设备租金 17,600.00 元，长租优惠 -880.00 元，安装调试 3,000.00 元，运输 500.00 元，增值税 2,628.60 元。\n含税合计 22,848.60 元；押金 16,000.00 元（可退），签约时合计应付 38,848.60 元。\n说明：\n"
+    },
+    {
+      "id": "eval-tool-02",
+      "question": "扬尘监测设备租一个月，3 台，含安装，报价多少？",
+      "expected_intent": "quote",
+      "actual_intent": "quote",
+      "expected_tool": "get_quote",
+      "tools": [
+        "get_quote",
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.9,
+      "answer_preview": "按当前配置估算：扬尘监测设备 3 台 × 30 天，运输距离 30.0 公里。\n设备租金 23,400.00 元，长租优惠 -2,808.00 元，安装调试 1,800.00 元，运输 500.00 元，增值税 2,975.96 元。\n含税合计 25,867.96 元；押金 6,000.00 元（可退），签约时合计应付 31,867.96 元。\n说明：\n- "
+    },
+    {
+      "id": "eval-tool-03",
+      "question": "工业除尘设备租 5 天 1 台，运费按 20 公里算，总费用是多少？",
+      "expected_intent": "quote",
+      "actual_intent": "quote",
+      "expected_tool": "get_quote",
+      "tools": [
+        "get_quote",
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.9,
+      "answer_preview": "按当前配置估算：工业除尘设备 5 台 × 5 天，运输距离 20.0 公里。\n设备租金 30,000.00 元，长租优惠 0.00 元，安装调试 12,500.00 元，运输 500.00 元，增值税 5,590.00 元。\n含税合计 48,590.00 元；押金 75,000.00 元（可退），签约时合计应付 123,590.00 元。\n说明：\n- 报价为"
+    },
+    {
+      "id": "eval-tool-04",
+      "question": "2 台噪声监测仪租 15 天报价",
+      "expected_intent": "quote",
+      "actual_intent": "quote",
+      "expected_tool": "get_quote",
+      "tools": [
+        "get_quote",
+        "search_knowledge_base"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.9,
+      "answer_preview": "按当前配置估算：噪声监测仪 2 台 × 15 天，运输距离 30.0 公里。\n设备租金 5,400.00 元，长租优惠 -270.00 元，安装调试 600.00 元，运输 500.00 元，增值税 809.90 元。\n含税合计 7,039.90 元；押金 2,000.00 元（可退），签约时合计应付 9,039.90 元。\n说明：\n- 报价为演示数据，实际"
+    },
+    {
+      "id": "eval-tool-05",
+      "question": "订单 EQ2026003 现在什么进度？",
+      "expected_intent": "order",
+      "actual_intent": "order",
+      "expected_tool": "get_order_status",
+      "tools": [
+        "get_order_status"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "订单 EQ2026003（浦东某工地）当前状态：履约中。\n当前节点：物流运输；预计：2026-11-12 到货；负责人：上海配送组。\n备注：车牌沪A****，司机已联系现场收货人。"
+    },
+    {
+      "id": "eval-tool-06",
+      "question": "帮我查一下 EQ2026007 什么时候到货",
+      "expected_intent": "order",
+      "actual_intent": "order",
+      "expected_tool": "get_order_status",
+      "tools": [
+        "get_order_status"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "订单 EQ2026007（昆山某电子厂）当前状态：履约中。\n当前节点：派送中；预计：2026-11-12 下午送达；负责人：上海配送组。\n备注：需客户准备叉车卸货。"
+    },
+    {
+      "id": "eval-tool-07",
+      "question": "EQ2026001 的押金退了吗？",
+      "expected_intent": "order",
+      "actual_intent": "order",
+      "expected_tool": "get_order_status",
+      "tools": [
+        "get_order_status"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": false,
+      "confidence": 0.95,
+      "answer_preview": "订单 EQ2026001（上海某园区运营方）当前状态：已退租。\n当前节点：押金结算中；预计：押金预计 2026-11-15 前退回；负责人：租赁服务组。\n备注：设备已验收，无损坏，等待财务结算。"
+    },
+    {
+      "id": "eval-tool-08",
+      "question": "设备故障三天没人处理，我要投诉，转人工",
+      "expected_intent": "handoff",
+      "actual_intent": "handoff",
+      "expected_tool": "create_handoff_ticket",
+      "tools": [
+        "create_handoff_ticket"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": true,
+      "confidence": 0.99,
+      "answer_preview": "已为你转接人工客服。\n工单号：HO-20261111-0001；优先级：P1；P1 30 分钟响应。\n人工同事会按工单顺序联系你，请保持电话畅通。"
+    },
+    {
+      "id": "eval-tool-09",
+      "question": "我要退款，请人工客服联系我",
+      "expected_intent": "handoff",
+      "actual_intent": "handoff",
+      "expected_tool": "create_handoff_ticket",
+      "tools": [
+        "create_handoff_ticket"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": true,
+      "confidence": 0.99,
+      "answer_preview": "已为你转接人工客服。\n工单号：HO-20261111-0002；优先级：P2；P2 2 小时响应。\n人工同事会按工单顺序联系你，请保持电话畅通。"
+    },
+    {
+      "id": "eval-tool-10",
+      "question": "租赁合同有纠纷，帮我转人工",
+      "expected_intent": "handoff",
+      "actual_intent": "handoff",
+      "expected_tool": "create_handoff_ticket",
+      "tools": [
+        "create_handoff_ticket"
+      ],
+      "intent_ok": true,
+      "tool_ok": true,
+      "citation_ok": true,
+      "handoff_ok": true,
+      "handoff": true,
+      "confidence": 0.99,
+      "answer_preview": "已为你转接人工客服。\n工单号：HO-20261111-0003；优先级：P1；P1 30 分钟响应。\n人工同事会按工单顺序联系你，请保持电话畅通。"
+    }
+  ]
+}
